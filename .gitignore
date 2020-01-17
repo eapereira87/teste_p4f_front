@@ -1,0 +1,5 @@
+# . nome do arquivo para ignorar
+
+*.html
+*.lock
+*.log

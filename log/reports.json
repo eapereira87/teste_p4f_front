@@ -1,0 +1,583 @@
+[
+  {
+    "uri": "features/specs/login.feature",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "description": "",
+    "line": 4,
+    "comments": [
+      {
+        "value": "# encoding: utf-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "login;login-com-sucesso",
+        "keyword": "Cenario",
+        "name": "Login COM sucesso",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11600
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o site Automation Pratice",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8815345700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em Sign in",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 846801400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito o email address \"qa_erick@teste.com\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 590420700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito password \"teste\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88039300
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao Sign in",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093331200
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sera exibido a mensagem de boas vindas \"Welcome to your account. Here you can manage all of your personal information and orders.\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59394900
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175799200
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-sem-sucesso;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Login SEM sucesso",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o site Automation Pratice",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031689200
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em Sign in",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1120971900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito o email address \"\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109990700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito password \"\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133644900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao Sign in",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792401800
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sera exibido a mensagem de erro \"An email address required.\"",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69071000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176498000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-sem-sucesso;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Login SEM sucesso",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o site Automation Pratice",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067483000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em Sign in",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1137426700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito o email address \"qa_erick@teste.com\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123643100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito password \"\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172432400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao Sign in",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786257600
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sera exibido a mensagem de erro \"Password is required.\"",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55026600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187509600
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-sem-sucesso;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Login SEM sucesso",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o site Automation Pratice",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1013741900
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em Sign in",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135897100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito o email address \"xxxxxxxxx\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99648600
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito password \"\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108755100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao Sign in",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 680728600
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sera exibido a mensagem de erro \"Invalid email address.\"",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68311000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175976500
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-sem-sucesso;;5",
+        "keyword": "Esquema do Cenario",
+        "name": "Login SEM sucesso",
+        "description": "",
+        "line": 26,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "o site Automation Pratice",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 783677300
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico em Sign in",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093820400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito o email address \"qa_erick@teste.com\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143229900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "digito password \"ddddd\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88387900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botao Sign in",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662170800
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sera exibido a mensagem de erro \"Authentication failed.\"",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54834400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.30.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175797400
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
